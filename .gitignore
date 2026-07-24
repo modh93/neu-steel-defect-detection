@@ -1,0 +1,21 @@
+# Environnement virtuel
+venv/
+.venv/
+env/
+
+# Credentials (jamais commit une clé de service account)
+*.json
+!configs/*.json
+
+# Données et modèles (trop volumineux pour Git, doivent rester sur GCS)
+data/
+runs/
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

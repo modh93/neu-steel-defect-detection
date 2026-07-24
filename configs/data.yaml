@@ -1,0 +1,13 @@
+# Chemins vers les données (remplis une fois les données téléchargées en local pour l'entraînement)
+path: ./data/neu-yolo
+train: images/train
+val: images/validation
+
+# Classes (l'ordre doit correspondre exactement à CLASS_TO_IDX)
+names:
+  0: crazing
+  1: inclusion
+  2: patches
+  3: pitted_surface
+  4: rolled-in_scale
+  5: scratches
